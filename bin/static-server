@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var fork = require('child_process').fork;
+
+var filename = __dirname + '/../index';
+
+var server = fork(filename, [], {
+  cwd: process.cwd(),
+  env: process.env
+});
