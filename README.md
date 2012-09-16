@@ -1,7 +1,7 @@
-# Static-Server #
+# Easy-Serve #
 
 Super simple static serving.
 
-    npm install static-server -g
+    $ npm install easy-serve -g
 
-    static-server
+    $ easy-serve
